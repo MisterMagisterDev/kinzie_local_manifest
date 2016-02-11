@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
-	<project name="cm-kinzie-porting/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf" revision="cm-12.1" />
 	<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" revision="cm-12.1" />
 	
 	<project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media/msm8994" revision="cm-12.1-caf-8994"/>
 	<project name="CyanogenMod/android_external_mm-dash" path="external/mm-dash" revision="cm-12.1"/>
-
+ 
+ 
 	<project name="cm-kinzie-porting/device_motorola_kinzie" path="device/motorola/kinzie" revision="cm-12.1" />
-	<project name="cm-kinzie-porting/vendor_motorola_kinzie" path="vendor/motorola/kinzie" revision="cm-12.1" />
-	<project name="cm-kinzie-porting/kernel-msm" path="kernel/motorola-msm" revision="cm-12.1"/>
-	
-	<project name="MotorolaMobilityLLC/motorola-kernel" path="kernel/motorola/kernel" revision="lollipop-5.1.1-release-clark"/>
+	<project name="cm-kinzie-porting/vendor_motorola_kinzie" path="vendor/motorola/kinzie" revision="cm-12.1-kinzie-native" />
+	<project name="AICP/kernel_motorola_msm8992" path="kernel" revision="lp5.1"/>
 
+ 
 </manifest>
